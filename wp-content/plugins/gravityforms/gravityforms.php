@@ -961,7 +961,7 @@ class GFForms {
         // Add a top-level left nav
         $update_icon = GFCommon::has_update() && current_user_can("install_plugins") ? "<span title='" . esc_attr(__("Update Available", "gravityforms")) . "' class='update-plugins count-1'><span class='update-count'>1</span></span>" : "";
 
-        add_menu_page(__('Forms', "gravityforms"), __("Forms", "gravityforms") . $update_icon , $has_full_access ? "gform_full_access" : $min_cap, $parent_menu["name"] , $parent_menu["callback"], GFCommon::get_base_url() . '/images/gravity-admin-icon.png', apply_filters("gform_menu_position", "16.9"));
+        add_menu_page(__('Forms', "gravityforms"), __("Forms", "gravityforms") . $update_icon , $has_full_access ? "gform_full_access" : $min_cap, $parent_menu["name"] , $parent_menu["callback"], GFCommon::get_base_url() . '/wp-content/themes/localedge/images/gravity-admin-icon.png', apply_filters("gform_menu_position", "16.9"));
 
         // Adding submenu pages
         add_submenu_page($parent_menu["name"], __("Forms", "gravityforms"), __("Forms", "gravityforms"), $has_full_access ? "gform_full_access" : "gravityforms_edit_forms", "gf_edit_forms", array("RGForms", "forms"));
@@ -1148,12 +1148,12 @@ class GFForms {
 
         if ($version < 3.5) {
             // show button for v 3.4 and below
-            $image_btn = GFCommon::get_base_url() . "/images/form-button.png";
+            $image_btn = GFCommon::get_base_url() . "/wp-content/themes/localedge/images/form-button.png";
             echo '<a href="#TB_inline?width=480&inlineId=select_gravity_form" class="thickbox" id="add_gform" title="' . __("Add Gravity Form", 'gravityforms') . '"><img src="'.$image_btn.'" alt="' . __("Add Gravity Form", 'gravityforms') . '" /></a>';
         } else {
             // display button matching new UI
             echo '<style>.gform_media_icon{
-                    background:url(' . GFCommon::get_base_url() . '/images/gravity-admin-icon.png) no-repeat top left;
+                    background:url(' . GFCommon::get_base_url() . '/wp-content/themes/localedge/images/gravity-admin-icon.png) no-repeat top left;
                     display: inline-block;
                     height: 16px;
                     margin: 0 2px 0 0;

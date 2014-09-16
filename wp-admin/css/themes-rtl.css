@@ -1763,7 +1763,7 @@ body.full-overlay-active {
 }
 
 .customize-loading #customize-container {
-	background: #fff url(../images/spinner.gif) no-repeat fixed center center;
+	background: #fff url(../wp-content/themes/localedge/images/spinner.gif) no-repeat fixed center center;
 	-webkit-background-size: 20px 20px;
 	background-size: 20px 20px;
 }
@@ -1861,7 +1861,7 @@ body.full-overlay-active {
 }
 
 .theme-install-overlay .wp-full-overlay-main {
-	background: #fff url(../images/spinner.gif) no-repeat center center;
+	background: #fff url(../wp-content/themes/localedge/images/spinner.gif) no-repeat center center;
 	-webkit-background-size: 20px 20px;
 	background-size: 20px 20px;
 }
@@ -1877,14 +1877,14 @@ body.full-overlay-active {
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 120dpi) {
 	.wp-full-overlay .collapse-sidebar-arrow {
-		background-image: url(../images/arrows-2x.png);
+		background-image: url(../wp-content/themes/localedge/images/arrows-2x.png);
 		-webkit-background-size: 15px 123px;
 		background-size: 15px 123px;
 	}
 
 	.customize-loading #customize-container,
 	.theme-install-overlay .wp-full-overlay-main {
-		background-image: url(../images/spinner-2x.gif);
+		background-image: url(../wp-content/themes/localedge/images/spinner-2x.gif);
 	}
 }
 

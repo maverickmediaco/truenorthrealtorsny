@@ -553,7 +553,7 @@ div.revisions-controls > .wp-slider > .ui-slider-handle {
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 120dpi) {
 	.revision-tick.completed-false {
-		background-image: url(../images/spinner-2x.gif);
+		background-image: url(../wp-content/themes/localedge/images/spinner-2x.gif);
 	}
 }
 

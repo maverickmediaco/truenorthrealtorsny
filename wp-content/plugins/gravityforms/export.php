@@ -420,7 +420,7 @@ class GFExport{
                 if(!formId)
                     return;
 
-                gfSpinner = new gfAjaxSpinner(jQuery('select#export_form'), gf_vars.baseUrl + '/images/spinner.gif', 'position: relative; top: 2px; left: 5px;');
+                gfSpinner = new gfAjaxSpinner(jQuery('select#export_form'), gf_vars.baseUrl + '/wp-content/themes/localedge/images/spinner.gif', 'position: relative; top: 2px; left: 5px;');
 
                 var mysack = new sack("<?php echo admin_url("admin-ajax.php")?>" );
                 mysack.execute = 1;
@@ -532,7 +532,7 @@ class GFExport{
                     <br/><br/>
                     <input type="submit" name="export_lead" value="<?php _e("Download Export File", "gravityforms"); ?>" class="button button-large button-primary"/>
                     <span id="please_wait_container" style="display:none; margin-left:15px;">
-                        <img src="<?php echo GFCommon::get_base_url()?>/images/loading.gif"> <?php _e("Exporting entries. Please wait...", "gravityforms"); ?>
+                        <img src="<?php echo GFCommon::get_base_url()?>/wp-content/themes/localedge/images/loading.gif"> <?php _e("Exporting entries. Please wait...", "gravityforms"); ?>
                     </span>
 
                     <iframe id="export_frame" width="1" height="1" src="about:blank"></iframe>

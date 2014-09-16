@@ -14,5 +14,41 @@ be seen on the Desktop.
 }
 
 #main-navigation ul.menu li a{
-	color:#000;
+	color:#fff;
 }
+
+
+.call {
+	position:relative;
+	float:right;
+	border-top:none;
+}
+
+.tel {
+	position:relative;
+	float:right;
+	padding-right:5em;
+}
+
+.nivoslider {
+	margin-top:-2em;
+}
+
+#inner-header {
+	background:url(/wp-content/themes/localedge/images/headers/header.jpg);
+	
+}
+
+.slideshow_bg {
+	background:url(/wp-content/themes/localedge/images/stripe_bg.png);
+	padding:20px 40px 40px;
+	width:100%;
+	
+	
+}
+
+#main {
+	width:100%;
+	
+}
+

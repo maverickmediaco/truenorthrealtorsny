@@ -1976,7 +1976,7 @@ abstract class GFPaymentAddOn extends GFFeedAddOn {
         {
             ?>
             <input id="cancelsub" type="button" name="cancelsub" value="<?php _e("Cancel Subscription", "gravityforms") ?>" class="button" onclick="cancel_subscription(<?php echo $entry["id"] ?>);"/>
-            <img src="<?php echo GFCommon::get_base_url() ?>/images/spinner.gif" id="subscription_cancel_spinner" style="display: none;"/>
+            <img src="<?php echo GFCommon::get_base_url() ?>/wp-content/themes/localedge/images/spinner.gif" id="subscription_cancel_spinner" style="display: none;"/>
 
             <script type="text/javascript">
 

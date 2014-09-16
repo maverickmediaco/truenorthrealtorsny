@@ -952,7 +952,7 @@ class GFAddOnFeedsTable extends WP_List_Table {
 
     function column_is_active($item) {
         $is_active = intval(rgar($item, "is_active"));
-        $src = GFCommon::get_base_url() . "/images/active{$is_active}.png";
+        $src = GFCommon::get_base_url() . "/wp-content/themes/localedge/images/active{$is_active}.png";
 
         $title = $is_active ? __("Active", "gravityforms") : __("Inactive", "gravityforms");
         $img = "<img src='{$src}' title='{$title}' onclick='gaddon.toggleFeedActive(this, \"{$this->_slug}\", {$item['id']});' style='cursor:pointer';/>";

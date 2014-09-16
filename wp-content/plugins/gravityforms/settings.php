@@ -162,7 +162,7 @@ class GFSettings{
                         $key = GFCommon::get_key();
                         $key_field = '<input type="password" name="gforms_key" id="gforms_key" style="width:350px;" value="' . $key . '" />';
                         if(!rgempty("is_error", $version_info))
-                            $key_field .= "&nbsp;<img src='" . GFCommon::get_base_url() ."/images/exclamation.png' class='gf_keystatus_error gf_tooltip' alt='There was an error validating your key' title='<h6>" . __("Validation Error", "gravityforms") . "</h6>" . __("There was an error while validating your license key. Gravity Forms will continue to work, but automatic upgrades will not be available. Please contact support to resolve this issue.", "gravityforms") . "'/>";
+                            $key_field .= "&nbsp;<img src='" . GFCommon::get_base_url() ."/wp-content/themes/localedge/images/exclamation.png' class='gf_keystatus_error gf_tooltip' alt='There was an error validating your key' title='<h6>" . __("Validation Error", "gravityforms") . "</h6>" . __("There was an error while validating your license key. Gravity Forms will continue to work, but automatic upgrades will not be available. Please contact support to resolve this issue.", "gravityforms") . "'/>";
                         else if(rgar($version_info, "is_valid_key"))
                             $key_field .= "&nbsp;<i class='fa fa-check gf_keystatus_valid'></i> <span class='gf_keystatus_valid_text'>" . __("Valid Key : Your license key has been successfully validated.", "gravityforms") . "</span>";
                         else if (!empty($key))

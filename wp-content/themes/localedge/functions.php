@@ -124,7 +124,7 @@ function localedge_theme_support() {
 	// to add header image support go here: http://themble.com/support/adding-header-background-image-support/
 	//adding custome header suport
 	add_theme_support( 'custom-header', array(
-		'default-image'=> '%s/images/headers/default.jpg',
+		'default-image'=> '%s/wp-content/themes/localedge/images/headers/default.jpg',
 		'random-default'=> false,
 		'width'=> 1140,  // Make sure to set this
 		'height'=> 250, // Make sure to set this
@@ -175,8 +175,8 @@ function localedge_theme_support() {
 
 register_default_headers( array(
 	'default' => array(
-		'url' => get_template_directory_uri().'/images/headers/default.jpg',
-		'thumbnail_url' => get_template_directory_uri().'/images/headers/default.jpg',
+		'url' => get_template_directory_uri().'/wp-content/themes/localedge/images/headers/default.jpg',
+		'thumbnail_url' => get_template_directory_uri().'/wp-content/themes/localedge/images/headers/default.jpg',
 		'description' => __( 'default', 'localedge' )
 	)
 ));
@@ -444,7 +444,7 @@ function localedge_comments($comment, $args, $depth) {
 					// create variable
 					$bgauthemail = get_comment_author_email();
 				?>
-				<img data-gravatar="http://www.gravatar.com/avatar/<?php echo md5($bgauthemail); ?>?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="<?php echo get_template_directory_uri(); ?>/images/nothing.gif" />
+				<img data-gravatar="http://www.gravatar.com/avatar/<?php echo md5($bgauthemail); ?>?s=32" class="load-gravatar avatar avatar-48 photo" height="32" width="32" src="<?php echo get_template_directory_uri(); ?>/wp-content/themes/localedge/images/nothing.gif" />
 				<!-- end custom gravatar call -->
 				<?php printf(__('<cite class="fn">%s</cite>', 'localedge'), get_comment_author_link()) ?>
 				<time datetime="<?php echo comment_time('Y-m-j'); ?>"><a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>"><?php comment_time(__('F jS, Y', 'localedge')); ?> </a></time>

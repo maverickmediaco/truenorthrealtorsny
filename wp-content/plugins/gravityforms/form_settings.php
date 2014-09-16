@@ -109,7 +109,7 @@ class GFFormSettings {
 
             HandleUnsavedChanges('#gform_form_settings');
 
-            jQuery('.datepicker').datepicker({showOn: "both", changeMonth: true, changeYear: true, buttonImage: "<?php echo GFCommon::get_base_url() ?>/images/calendar.png", buttonImageOnly: true} );
+            jQuery('.datepicker').datepicker({showOn: "both", changeMonth: true, changeYear: true, buttonImage: "<?php echo GFCommon::get_base_url() ?>/wp-content/themes/localedge/images/calendar.png", buttonImageOnly: true} );
 
             ToggleConditionalLogic(true, 'form_button');
 
@@ -1486,7 +1486,7 @@ class GFConfirmationTable extends WP_List_Table {
 
         $is_active = isset($item["isActive"]) ? $item["isActive"] : true;
         ?>
-        <img src="<?php echo GFCommon::get_base_url() ?>/images/active<?php echo intval($is_active) ?>.png" style="cursor: pointer;margin:-5px 0 0 8px;" alt="<?php $is_active ? __("Active", "gravityforms") : __("Inactive", "gravityforms");?>" title="<?php echo $is_active ? __("Active", "gravityforms") : __("Inactive", "gravityforms");?>" onclick="ToggleActive(this, '<?php echo $item["id"] ?>'); " />
+        <img src="<?php echo GFCommon::get_base_url() ?>/wp-content/themes/localedge/images/active<?php echo intval($is_active) ?>.png" style="cursor: pointer;margin:-5px 0 0 8px;" alt="<?php $is_active ? __("Active", "gravityforms") : __("Inactive", "gravityforms");?>" title="<?php echo $is_active ? __("Active", "gravityforms") : __("Inactive", "gravityforms");?>" onclick="ToggleActive(this, '<?php echo $item["id"] ?>'); " />
         <?php
     }
 

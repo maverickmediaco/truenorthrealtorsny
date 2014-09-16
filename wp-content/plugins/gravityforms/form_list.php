@@ -156,7 +156,7 @@ class GFFormList{
             function saveNewForm() {
 
                 var createButton = jQuery('#save_new_form');
-                var spinner = new gfAjaxSpinner(createButton, gf_vars.baseUrl + '/images/spinner.gif');
+                var spinner = new gfAjaxSpinner(createButton, gf_vars.baseUrl + '/wp-content/themes/localedge/images/spinner.gif');
 
                 // clear error message
                 jQuery('#gf_new_form_error_message').html('');
@@ -453,7 +453,7 @@ class GFFormList{
 
                                     <td>
                                         <?php if(!$trash) : ?>
-                                        <img class="gform_active_icon" src="<?php echo GFCommon::get_base_url() ?>/images/active<?php echo intval($form->is_active) ?>.png" style="cursor: pointer;" alt="<?php echo $form->is_active ? __("Active", "gravityforms") : __("Inactive", "gravityforms");?>" title="<?php echo $form->is_active ? __("Active", "gravityforms") : __("Inactive", "gravityforms");?>" onclick="ToggleActive(this, <?php echo $form->id ?>); " />
+                                        <img class="gform_active_icon" src="<?php echo GFCommon::get_base_url() ?>/wp-content/themes/localedge/images/active<?php echo intval($form->is_active) ?>.png" style="cursor: pointer;" alt="<?php echo $form->is_active ? __("Active", "gravityforms") : __("Inactive", "gravityforms");?>" title="<?php echo $form->is_active ? __("Active", "gravityforms") : __("Inactive", "gravityforms");?>" onclick="ToggleActive(this, <?php echo $form->id ?>); " />
                                         <?php endif ?>
                                     </td>
                                     <td class="column-id"><?php echo $form->id ?></td>

@@ -1931,11 +1931,11 @@ function make_site_theme_from_default($theme_name, $template) {
 	$images_dir = @ opendir("$default_dir/images");
 	if ($images_dir) {
 		while(($image = readdir($images_dir)) !== false) {
-			if (is_dir("$default_dir/images/$image"))
+			if (is_dir("$default_dir/wp-content/themes/localedge/images/$image"))
 				continue;
-			if (! @copy("$default_dir/images/$image", "$site_dir/images/$image"))
+			if (! @copy("$default_dir/wp-content/themes/localedge/images/$image", "$site_dir/wp-content/themes/localedge/images/$image"))
 				return;
-			chmod("$site_dir/images/$image", 0777);
+			chmod("$site_dir/wp-content/themes/localedge/images/$image", 0777);
 		}
 	}
 	@closedir($images_dir);

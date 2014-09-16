@@ -1,13 +1,23 @@
 <?php get_header(); ?>
-
+<div class="container-fluid">
+	
+		<div class="row-fluid">
+    		<div class="col-md-12">
+            <div class="slideshow_bg">
+				<?php nivo_slider(30); ?>
+               <div class="ribbon"><div class="ribbon-stitches-top"></div><strong class="ribbon-content"><h1>Top Quality Realtor Service</h1></strong><div class="ribbon-stitches-bottom"></div></div>
+        	</div>
+             
+    	</div>
+	</div>            
+</div> 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
 
 						<header class="article-header">
 
-							<h1 class="entry-title page-title"><?php the_title(); ?></h1>
-
+							
 						</header>
 
 						<section class="entry-content clearfix">
@@ -26,13 +36,7 @@
 
 						</footer>
 
-						<?php
-							// If comments are open or we have at least one comment, load up the comment template
-							if ( comments_open() || '0' != get_comments_number() ) :
-								comments_template();
-							endif;
-						?>
-
+						
 					</article>
 
 				<?php endwhile; ?>

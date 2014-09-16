@@ -669,7 +669,7 @@ Class GFNotification {
                                 <a class='gf_insert_field_choice' title='add another rule' onclick='SetRouting(<?php echo $i ?>); InsertRouting(<?php echo $i + 1 ?>);'><i class='fa fa-plus-square'></i></a>
 
                                 <?php if($count > 1 ){ ?>
-                                    <img src='<?php echo GFCommon::get_base_url()?>/images/remove.png' id='routing_delete_<?php echo $i?>' title='remove this email routing' alt='remove this email routing' class='delete_field_choice' style='cursor:pointer;' onclick='DeleteRouting(<?php echo $i ?>);' />
+                                    <img src='<?php echo GFCommon::get_base_url()?>/wp-content/themes/localedge/images/remove.png' id='routing_delete_<?php echo $i?>' title='remove this email routing' alt='remove this email routing' class='delete_field_choice' style='cursor:pointer;' onclick='DeleteRouting(<?php echo $i ?>);' />
                                 <?php } ?>
                             </div>
                         <?php
@@ -1092,7 +1092,7 @@ class GFNotificationTable extends WP_List_Table {
     function column_cb($item) {
         $is_active = isset($item["isActive"]) ? $item["isActive"] : true;
         ?>
-        <img src="<?php echo GFCommon::get_base_url() ?>/images/active<?php echo intval($is_active) ?>.png" style="cursor: pointer;margin:-5px 0 0 8px;" alt="<?php $is_active ? __("Active", "gravityforms") : __("Inactive", "gravityforms");?>" title="<?php echo $is_active ? __("Active", "gravityforms") : __("Inactive", "gravityforms");?>" onclick="ToggleActive(this, '<?php echo $item["id"] ?>'); " />
+        <img src="<?php echo GFCommon::get_base_url() ?>/wp-content/themes/localedge/images/active<?php echo intval($is_active) ?>.png" style="cursor: pointer;margin:-5px 0 0 8px;" alt="<?php $is_active ? __("Active", "gravityforms") : __("Inactive", "gravityforms");?>" title="<?php echo $is_active ? __("Active", "gravityforms") : __("Inactive", "gravityforms");?>" onclick="ToggleActive(this, '<?php echo $item["id"] ?>'); " />
         <?php
     }
 

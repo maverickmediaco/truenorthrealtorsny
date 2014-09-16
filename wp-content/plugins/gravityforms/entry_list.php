@@ -850,7 +850,7 @@ class GFEntryList{
 
                                             <input type="button" name="notification_resend" id="notification_resend" value="<?php _e("Resend Notifications", "gravityforms") ?>" class="button" style="" onclick="BulkResendNotifications();"/>
                                             <span id="please_wait_container" style="display:none; margin-left: 5px;">
-                                                <img src="<?php echo GFCommon::get_base_url()?>/images/loading.gif"> <?php _e("Resending...", "gravityforms"); ?>
+                                                <img src="<?php echo GFCommon::get_base_url()?>/wp-content/themes/localedge/images/loading.gif"> <?php _e("Resending...", "gravityforms"); ?>
                                             </span>
                                             <?php
                                         }
@@ -969,7 +969,7 @@ class GFEntryList{
                                 if(!in_array($filter, array("spam", "trash"))){
                                     ?>
                                     <td >
-                                        <img id="star_image_<?php echo $lead["id"]?>" src="<?php echo GFCommon::get_base_url() ?>/images/star<?php echo intval($lead["is_starred"]) ?>.png" onclick="ToggleStar(this, <?php echo $lead["id"] . ",'" . $filter . "'" ?>);" />
+                                        <img id="star_image_<?php echo $lead["id"]?>" src="<?php echo GFCommon::get_base_url() ?>/wp-content/themes/localedge/images/star<?php echo intval($lead["is_starred"]) ?>.png" onclick="ToggleStar(this, <?php echo $lead["id"] . ",'" . $filter . "'" ?>);" />
                                     </td>
                                 <?php
                                 }
@@ -1443,7 +1443,7 @@ class GFEntryList{
             break;
         }
 
-        return GFCommon::get_base_url() . "/images/doctypes/$file_name";
+        return GFCommon::get_base_url() . "/wp-content/themes/localedge/images/doctypes/$file_name";
     }
 
     private static function update_message(){

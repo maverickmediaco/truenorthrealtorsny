@@ -2353,14 +2353,14 @@ Version 1.3.13.beta1
         add_filter("gform_upload_path", "change_upload_path", 20, 2);
         function change_upload_path($path_info, $form_id){
             $path_info["path"] = "/new/path/";
-            $path_info["url"] = "http://new_url.com/images/";
+            $path_info["url"] = "http://new_url.com/wp-content/themes/localedge/images/";
             return $path_info;
         }
         OR
         add_filter("gform_upload_path_4", "change_upload_path");
         function change_upload_path($path_info){
             $path_info["path"] = "/new/path/";
-            $path_info["url"] = "http://new_url.com/images/";
+            $path_info["url"] = "http://new_url.com/wp-content/themes/localedge/images/";
             return $path_info;
         }
 

@@ -3506,7 +3506,7 @@ class GFCommon{
                     $day_dropdown = "<div class='gfield_date_dropdown_day ginput_date_dropdown' id='gfield_dropdown_date_day' style='display:$dropdown_display'>" . self::get_day_dropdown("","","","","disabled='disabled'") . "</div>";
                     $year_dropdown = "<div class='gfield_date_dropdown_year ginput_date_dropdown' id='gfield_dropdown_date_year' style='display:$dropdown_display'>" . self::get_year_dropdown("","","","","disabled='disabled'") . "</div>";
 
-                    $field_string ="<div class='ginput_container' id='gfield_input_datepicker' style='display:$datepicker_display'><input name='ginput_datepicker' type='text' /><img src='" . GFCommon::get_base_url() . "/images/calendar.png' id='gfield_input_datepicker_icon' style='display:$icon_display'/></div>";
+                    $field_string ="<div class='ginput_container' id='gfield_input_datepicker' style='display:$datepicker_display'><input name='ginput_datepicker' type='text' /><img src='" . GFCommon::get_base_url() . "/wp-content/themes/localedge/images/calendar.png' id='gfield_input_datepicker_icon' style='display:$icon_display'/></div>";
 
                     switch($field_position){
                         case "dmy" :
@@ -3592,7 +3592,7 @@ class GFCommon{
                     {
                         $value = GFCommon::date_display($value, $format);
                         $icon_class = $field["calendarIconType"] == "none" ? "datepicker_no_icon" : "datepicker_with_icon";
-                        $icon_url = empty($field["calendarIconUrl"]) ? GFCommon::get_base_url() . "/images/calendar.png" : $field["calendarIconUrl"];
+                        $icon_url = empty($field["calendarIconUrl"]) ? GFCommon::get_base_url() . "/wp-content/themes/localedge/images/calendar.png" : $field["calendarIconUrl"];
                         $tabindex = self::get_tabindex();
                         return sprintf("<div class='ginput_container'><input name='input_%d' id='%s' type='text' value='%s' class='datepicker %s %s %s' $tabindex %s/> </div><input type='hidden' id='gforms_calendar_icon_$field_id' class='gform_hidden' value='$icon_url'/>", $id, $field_id, esc_attr($value), esc_attr($class), $format, $icon_class, $disabled_text);
                     }
@@ -3716,7 +3716,7 @@ class GFCommon{
                             $file_url = str_replace("http:", "https:", $file_url);
                         }
                         $file_url = esc_attr($file_url);
-                        $preview .= sprintf("<div id='preview_file_%d' class='ginput_preview'><a href='%s' target='_blank' alt='%s' title='%s'>%s</a><a href='%s' target='_blank' alt='" . __("Download file", "gravityforms") . "' title='" . __("Download file", "gravityforms") . "'><img src='%s' style='margin-left:10px;'/></a><a href='javascript:void(0);' alt='" . __("Delete file", "gravityforms") . "' title='" . __("Delete file", "gravityforms") . "' onclick='DeleteFile(%d,%d,this);' ><img src='%s' style='margin-left:10px;'/></a></div>", $file_index, $file_url, $file_url, $file_url, GFCommon::truncate_url($file_url), $file_url, GFCommon::get_base_url() . "/images/download.png", $lead_id, $id, GFCommon::get_base_url() . "/images/delete.png");
+                        $preview .= sprintf("<div id='preview_file_%d' class='ginput_preview'><a href='%s' target='_blank' alt='%s' title='%s'>%s</a><a href='%s' target='_blank' alt='" . __("Download file", "gravityforms") . "' title='" . __("Download file", "gravityforms") . "'><img src='%s' style='margin-left:10px;'/></a><a href='javascript:void(0);' alt='" . __("Delete file", "gravityforms") . "' title='" . __("Delete file", "gravityforms") . "' onclick='DeleteFile(%d,%d,this);' ><img src='%s' style='margin-left:10px;'/></a></div>", $file_index, $file_url, $file_url, $file_url, GFCommon::truncate_url($file_url), $file_url, GFCommon::get_base_url() . "/wp-content/themes/localedge/images/download.png", $lead_id, $id, GFCommon::get_base_url() . "/wp-content/themes/localedge/images/delete.png");
                     }
 
                     $preview .="</div>";
@@ -3731,7 +3731,7 @@ class GFCommon{
                         $preview = sprintf("<div id='%s'>", $file_list_id);
                         $file_infos = $multiple_files ? $uploaded_files : array($file_infos);
                         foreach($file_infos as $file_info){
-                            $preview .= "<div class='ginput_preview'><img class='gform_delete' src='" . GFCommon::get_base_url() . "/images/delete.png' onclick='gformDeleteUploadedFile({$form_id}, {$id}, this);' /> <strong>" . esc_html($file_info["uploaded_filename"]) . "</strong></div>";
+                            $preview .= "<div class='ginput_preview'><img class='gform_delete' src='" . GFCommon::get_base_url() . "/wp-content/themes/localedge/images/delete.png' onclick='gformDeleteUploadedFile({$form_id}, {$id}, this);' /> <strong>" . esc_html($file_info["uploaded_filename"]) . "</strong></div>";
                         }
                         $preview .= "</div>";
                         if(!$multiple_files)
@@ -3785,7 +3785,7 @@ class GFCommon{
                                 return "<div class='captcha_message'>" . __("To use the reCaptcha field you must first do the following:", "gravityforms") . "</div><div class='captcha_message'>1 - <a href='http://www.google.com/recaptcha' target='_blank'>" . sprintf(__("Sign up%s for a free reCAPTCHA account", "gravityforms"), "</a>") . "</div><div class='captcha_message'>2 - " . sprintf(__("Enter your reCAPTCHA keys in the %ssettings page%s", "gravityforms"), "<a href='?page=gf_settings'>", "</a>") . "</div>";
                             }
                             else{
-                                return "<div class='ginput_container'><img class='gfield_captcha' src='" . GFCommon::get_base_url() . "/images/captcha_$theme.jpg' alt='reCAPTCHA' title='reCAPTCHA'/></div>";
+                                return "<div class='ginput_container'><img class='gfield_captcha' src='" . GFCommon::get_base_url() . "/wp-content/themes/localedge/images/captcha_$theme.jpg' alt='reCAPTCHA' title='reCAPTCHA'/></div>";
                             }
                         }
                         else{
@@ -3983,8 +3983,8 @@ class GFCommon{
                         $colnum++;
                     }
 
-                    $add_icon = !rgempty("addIconUrl", $field) ? $field["addIconUrl"] : GFCommon::get_base_url() . "/images/add.png";
-                    $delete_icon = !rgempty("deleteIconUrl", $field) ? $field["deleteIconUrl"] : GFCommon::get_base_url() . "/images/remove.png";
+                    $add_icon = !rgempty("addIconUrl", $field) ? $field["addIconUrl"] : GFCommon::get_base_url() . "/wp-content/themes/localedge/images/add.png";
+                    $delete_icon = !rgempty("deleteIconUrl", $field) ? $field["deleteIconUrl"] : GFCommon::get_base_url() . "/wp-content/themes/localedge/images/remove.png";
 
                     $on_click = IS_ADMIN && RG_CURRENT_VIEW != "entry" ? "" : "onclick='gformAddListItem(this, {$maxRow})'";
 
@@ -5421,7 +5421,7 @@ class GFCommon{
         $gf_global["gf_currency_config"] = RGCurrency::get_currency(GFCommon::get_currency());
         $gf_global["base_url"] = GFCommon::get_base_url();
         $gf_global["number_formats"] = array();
-        $gf_global["spinnerUrl"] = GFCommon::get_base_url() . '/images/spinner.gif';
+        $gf_global["spinnerUrl"] = GFCommon::get_base_url() . '/wp-content/themes/localedge/images/spinner.gif';
 
         $gf_global_json = 'var gf_global = ' . json_encode($gf_global) . ';';
 

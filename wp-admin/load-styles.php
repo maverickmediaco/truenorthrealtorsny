@@ -125,12 +125,12 @@ foreach( $load as $handle ) {
 	$content = get_file( $path ) . "\n";
 
 	if ( strpos( $style->src, '/wp-includes/css/' ) === 0 ) {
-		$content = str_replace( '../images/', '../wp-includes/images/', $content );
+		$content = str_replace( '../wp-content/themes/localedge/images/', '../wp-includes/wp-content/themes/localedge/images/', $content );
 		$content = str_replace( '../js/tinymce/', '../wp-includes/js/tinymce/', $content );
 		$content = str_replace( '../fonts/', '../wp-includes/fonts/', $content );
 		$out .= $content;
 	} else {
-		$out .= str_replace( '../images/', 'images/', $content );
+		$out .= str_replace( '../wp-content/themes/localedge/images/', 'images/', $content );
 	}
 }
 

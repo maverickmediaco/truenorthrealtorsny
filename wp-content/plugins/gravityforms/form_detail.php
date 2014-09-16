@@ -781,7 +781,7 @@ class GFFormDetail{
                                         <?php _e("Theme", "gravityforms"); ?>
                                         <?php gform_tooltip("form_field_recaptcha_theme") ?>
                                     </label>
-                                    <select id="field_captcha_theme" onchange="SetCaptchaTheme(this.value, '<?php echo GFCommon::get_base_url() ?>/images/captcha_' + this.value + '.jpg')">
+                                    <select id="field_captcha_theme" onchange="SetCaptchaTheme(this.value, '<?php echo GFCommon::get_base_url() ?>/wp-content/themes/localedge/images/captcha_' + this.value + '.jpg')">
                                         <option value="red"><?php _e("Red", "gravityforms"); ?></option>
                                         <option value="white"><?php _e("White", "gravityforms"); ?></option>
                                         <option value="blackglass"><?php _e("Black Glass", "gravityforms"); ?></option>
@@ -2048,7 +2048,7 @@ class GFFormDetail{
                                 echo $save_button;
                                 ?>
 
-                                <span id="please_wait_container" style="display:none;"><img src="<?php echo GFCommon::get_base_url()?>/images/loading.gif" class="gf_loader"></span>
+                                <span id="please_wait_container" style="display:none;"><img src="<?php echo GFCommon::get_base_url()?>/wp-content/themes/localedge/images/loading.gif" class="gf_loader"></span>
 
                                 <div class="updated_base" id="after_update_dialog" style="display:none;">
                                     <strong><?php _e("Form updated successfully.", "gravityforms"); ?>
@@ -2106,8 +2106,8 @@ class GFFormDetail{
          <table cellpadding="0" cellspacing="0">
             <tr>
                 <td><input type='text' class="iColorPicker" size="7" name='<?php echo esc_attr($field_name) ?>' onchange='SetColorPickerColor(this.name, this.value, "<?php echo $callback ?>");' id='<?php echo esc_attr($field_name) ?>' /></td>
-                <td style="padding-right:5px; padding-left:5px;"><img style="top:3px; cursor:pointer; border:1px solid #dfdfdf;" id="chip_<?php echo $field_name ?>" valign="bottom" height="22" width="22" src="<?php echo GFCommon::get_base_url() ?>/images/blank.gif" /></td>
-                <td><img style="cursor:pointer;" valign="bottom" id="chooser_<?php echo $field_name ?>" src="<?php echo GFCommon::get_base_url() ?>/images/color.png" /></td>
+                <td style="padding-right:5px; padding-left:5px;"><img style="top:3px; cursor:pointer; border:1px solid #dfdfdf;" id="chip_<?php echo $field_name ?>" valign="bottom" height="22" width="22" src="<?php echo GFCommon::get_base_url() ?>/wp-content/themes/localedge/images/blank.gif" /></td>
+                <td><img style="cursor:pointer;" valign="bottom" id="chooser_<?php echo $field_name ?>" src="<?php echo GFCommon::get_base_url() ?>/wp-content/themes/localedge/images/color.png" /></td>
             </tr>
         </table>
         <script type="text/javascript">

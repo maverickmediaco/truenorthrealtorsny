@@ -310,7 +310,7 @@ if (!class_exists("GFResults")) {
                                             <div class="gresults-filter-loading"
                                                  style="display:none; float:right; margin-top:5px;">
                                                 <img
-                                                    src="<?php echo GFCommon::get_base_url() ?>/images/spinner.gif"
+                                                    src="<?php echo GFCommon::get_base_url() ?>/wp-content/themes/localedge/images/spinner.gif"
                                                     alt="loading..."/>
                                             </div>
                                         </div>
@@ -321,7 +321,7 @@ if (!class_exists("GFResults")) {
                     </div>
                     <div class="gresults-filter-loading" style="display:none;margin:0 5px 10px 0;">
                         <img style="vertical-align:middle;"
-                             src="<?php echo GFCommon::get_base_url() ?>/images/spinner.gif"
+                             src="<?php echo GFCommon::get_base_url() ?>/wp-content/themes/localedge/images/spinner.gif"
                              alt="loading..."/>&nbsp;
                         <a href="javascript:void(0);" onclick="javascript:gresultsAjaxRequest.abort()">Cancel</a>
                     </div>

@@ -1929,7 +1929,7 @@ function UpdateFieldChoices(fieldType){
             for(var j=0; j<columns.length; j++){
                 choices += "<td " + class_attr +"><input type='text' disabled='disabled'  /></td>";
             }
-            choices +="<td><img src='" + gf_vars["baseUrl"] + "/images/add.png' class='add_list_item' style='cursor:pointer; margin:0 3px;' /></td>";
+            choices +="<td><img src='" + gf_vars["baseUrl"] + "/wp-content/themes/localedge/images/add.png' class='add_list_item' style='cursor:pointer; margin:0 3px;' /></td>";
             choices +="</tr></tbody>";
 
         break;

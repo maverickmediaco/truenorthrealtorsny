@@ -317,7 +317,7 @@ label.float_label {
 
 .field_hover {
 	border: 1px solid #D2E0EB !important;
-	background-image: url(../images/gf-fieldsettings-header.jpg);
+	background-image: url(../wp-content/themes/localedge/images/gf-fieldsettings-header.jpg);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	background-color: #F6FBFD;
@@ -332,7 +332,7 @@ div#gform_heading.field_hover {
 
 .field_selected {
 	border: 1px solid #D2E0EB !important;
-	background-image: url(../images/gf-fieldsettings-header.jpg);
+	background-image: url(../wp-content/themes/localedge/images/gf-fieldsettings-header.jpg);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	background-color: #F6FBFD;
@@ -745,7 +745,7 @@ a.close_icon {
 	top: 9px;
 	width: 16px;
 	height: 16px;
-	background-image: url(../images/close.png);
+	background-image: url(../wp-content/themes/localedge/images/close.png);
 	background-repeat: no-repeat;
 	text-indent: -9000px;
 	text-shadow: 0 1px 1px #FFF;
@@ -909,7 +909,7 @@ td.pad_top {
 }
 
 #simplemodal-container a.modalCloseImg {
-	background-image: url(../images/icon-close.png);
+	background-image: url(../wp-content/themes/localedge/images/icon-close.png);
 	background-repeat: no-repeat;
 	width: 25px;
 	height: 29px;
@@ -963,7 +963,7 @@ div.new-form-option a {
 	-khtml-border-radius: 4px;
 	border-radius: 4px;
 	margin-bottom: 4px;
-	background-image: url(../images/gf-new-option-bg.png);
+	background-image: url(../wp-content/themes/localedge/images/gf-new-option-bg.png);
 	background-repeat: repeat-x
 }
 
@@ -1391,7 +1391,7 @@ div.detail-note-content {
 	border: 1px solid #E6DB55;
 	border-bottom: 2px solid #E6DB55;
 	background-color: #FFFBCC;
-	background-image: url(../images/top-highlight.png);
+	background-image: url(../wp-content/themes/localedge/images/top-highlight.png);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	-webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.1);
@@ -1599,7 +1599,7 @@ a.bulk-choice:first-child {
 	float: left;
 	width: 40px;
 	height: 330px;
-	background-image: url(../images/arrow-right.jpg);
+	background-image: url(../wp-content/themes/localedge/images/arrow-right.jpg);
 	background-position: 100% 50%;
 	background-repeat: no-repeat;
 }
@@ -1699,7 +1699,7 @@ table.form-table td .error_base {
 }
 
 .gf_input_error_icon {
-	background-image: url("../images/exclamation.png");
+	background-image: url("../wp-content/themes/localedge/images/exclamation.png");
 	float: right;
 	height: 16px;
 	position: relative;
@@ -1833,7 +1833,7 @@ table.entry-products td div.product_name {
 }
 
 table.entry-products td ul.product_options li {
-	background-image: url(../images/prodlist.png);
+	background-image: url(../wp-content/themes/localedge/images/prodlist.png);
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	overflow: visible;
@@ -1842,7 +1842,7 @@ table.entry-products td ul.product_options li {
 }
 
 table.entry-products td ul.product_options li.lastitem {
-	background-image: url(../images/prodlist-last.png);
+	background-image: url(../wp-content/themes/localedge/images/prodlist-last.png);
 }
 
 /* additional button styles ------------------------------------------------------*/
@@ -1916,42 +1916,42 @@ h3.gf_progressbar_title {
 }
 
 .gform_wrapper .percentbar_blue {
-	background-image: url(../images/gf-percentbar-blue.png);
+	background-image: url(../wp-content/themes/localedge/images/gf-percentbar-blue.png);
 	background-repeat:repeat-x;
 	background-color: #0072BC;
 	color: #FFF
 }
 
 .gform_wrapper .percentbar_gray {
-	background-image: url(../images/gf-percentbar-gray.png);
+	background-image: url(../wp-content/themes/localedge/images/gf-percentbar-gray.png);
 	background-repeat:repeat-x;
 	background-color: #666;
 	color: #FFF
 }
 
 .gform_wrapper .percentbar_green {
-	background-image: url(../images/gf-percentbar-green.png);
+	background-image: url(../wp-content/themes/localedge/images/gf-percentbar-green.png);
 	background-repeat:repeat-x;
 	background-color: #94DC21;
 	color: #0c2c17
 }
 
 .gform_wrapper .percentbar_orange {
-	background-image: url(../images/gf-percentbar-orange.png);
+	background-image: url(../wp-content/themes/localedge/images/gf-percentbar-orange.png);
 	background-repeat:repeat-x;
 	background-color: #DC7021;
 	color: #FFF
 }
 
 .gform_wrapper .percentbar_red {
-	background-image: url(../images/gf-percentbar-red.png);
+	background-image: url(../wp-content/themes/localedge/images/gf-percentbar-red.png);
 	background-repeat:repeat-x;
 	background-color: #DC2521;
 	color: #FFF
 }
 
 .gform_wrapper .percentbar_custom {
-	background-image: url(../images/gf-percentbar-custom.png);
+	background-image: url(../wp-content/themes/localedge/images/gf-percentbar-custom.png);
 	background-repeat:repeat-x
 }
 
@@ -2017,7 +2017,7 @@ p.search-box {
 /* form settings panel  ----------------------------------------------------*/
 
 div#gform_heading.selectable.field_selected {
-	background-image: url(../images/gf-fieldsettings-header.jpg);
+	background-image: url(../wp-content/themes/localedge/images/gf-fieldsettings-header.jpg);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	background-color: #F6FBFD;
@@ -2052,12 +2052,12 @@ div.gf_upgrade_business_license {
 }
 
 div.gf_upgrade_developer_license {
-	background-image: url(../images/gravityforms-developer-upgrade.png);
+	background-image: url(../wp-content/themes/localedge/images/gravityforms-developer-upgrade.png);
 	margin: 30px 0 0 0;
 }
 
 div.gf_upgrade_business_license {
-	background-image: url(../images/gravityforms-business-upgrade.png);
+	background-image: url(../wp-content/themes/localedge/images/gravityforms-business-upgrade.png);
 	margin: 0;
 }
 
@@ -2310,7 +2310,7 @@ ul#gf_form_toolbar_links li {
 }
 
 ul#gf_form_toolbar_links li.gf_form_toolbar_selectform {
-	background-image: url(../images/gf-toolbar-divider.jpg);
+	background-image: url(../wp-content/themes/localedge/images/gf-toolbar-divider.jpg);
 	background-repeat: repeat-y;
 	background-position: right;
 }
@@ -2481,7 +2481,7 @@ div#add_fields div#floatMenu ul#sidebarmenu1.menu li.add_field_button_container 
 
 div#add_fields div#floatMenu ul#sidebarmenu1.menu li.add_field_button_container ul li.add-buttons ol.field_type li input.button:hover  {
 	border-color: #CCC;
-	background-image:url(../images/gf-hovergrad-bg.png);
+	background-image:url(../wp-content/themes/localedge/images/gf-hovergrad-bg.png);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 }
@@ -2557,7 +2557,7 @@ div#gravity-export-icon,
 div#gravity-import-icon,
 div#gravity-update-icon,
 div#gravity-help-icon{
-	background-image:url(../images/gf-32-iconsprite.png);
+	background-image:url(../wp-content/themes/localedge/images/gf-32-iconsprite.png);
 	background-repeat: no-repeat;
 }
 
@@ -2700,7 +2700,7 @@ div#notifications_container .inside div.message.error {
 div.gform_card_icon {
 	margin-right: 4px;
 	text-indent: -9000px;
-	background-image: url(../images/gf-creditcard-icons.png);
+	background-image: url(../wp-content/themes/localedge/images/gf-creditcard-icons.png);
 	background-repeat: no-repeat;
 	width: 36px;
 	height: 32px;
@@ -2903,7 +2903,7 @@ div.gform_card_icon {
 .ginput_complex .ginput_cardinfo_right span.ginput_card_security_code_icon {
 	width: 32px;
 	height: 23px;
-	background-image: url(../images/gf-creditcard-icons.png);
+	background-image: url(../wp-content/themes/localedge/images/gf-creditcard-icons.png);
 	background-repeat: no-repeat;
 	background-position: 0 -128px;
 	position: relative;
@@ -2963,7 +2963,7 @@ div.gf_toolset_dropdown_menu ul li.gf_toolset_dropdown_toplevel a.gf_toolset_dro
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	background-image: url(../images/gf-entry-paging-sprite.jpg);
+	background-image: url(../wp-content/themes/localedge/images/gf-entry-paging-sprite.jpg);
 	background-repeat: no-repeat;
 	background-position: -144px 0;
 }
@@ -3073,7 +3073,7 @@ html body.wp-admin div#wp-form_notification_message-editor-tools.wp-editor-tools
 
 html body.wp-admin div#wpwrap div#tab_notification div#wp-form_notification_message-wrap.wp-editor-wrap div#wp-form_notification_message-editor-tools.wp-editor-tools div#wp-form_notification_message-media-buttons.hide-if-no-js a#form_notification_message-add_media {
 	background-color: #FFF;
-	background-image: url(../images/gf-media-button-bg.jpg);
+	background-image: url(../wp-content/themes/localedge/images/gf-media-button-bg.jpg);
 	background-repeat: repeat-x;
 	background-position: bottom;
 	padding:3px 6px 2px 5px !important;
@@ -3109,7 +3109,7 @@ html body.wp-admin div#wpwrap div#tab_notification div#wp-form_notification_mess
 	width: 11px;
 	height: 11px;
 	cursor: pointer;
-	background-image: url(../images/icon-submenu-down.png);
+	background-image: url(../wp-content/themes/localedge/images/icon-submenu-down.png);
 	background-size: 11px 11px;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -3205,7 +3205,7 @@ ul#gf_form_toolbar_links .gf_submenu ul li:hover {
 	text-indent: -999em;
 	width: 16px;
 	height: 16px;
-	background: url(../images/icon-drop-list.png);
+	background: url(../wp-content/themes/localedge/images/icon-drop-list.png);
 	background-repeat: no-repeat;
 	cursor: pointer;
 	margin-left: 5px;
@@ -3365,7 +3365,7 @@ ul#gform_fields li#no-fields div.newform_notice span {
 	top: 35px;
 	width: 116px;
 	height: 83px;
-	background-image: url(../images/gf-nofields-steps.png);
+	background-image: url(../wp-content/themes/localedge/images/gf-nofields-steps.png);
 	background-position: 0 -1769px;
 	background-repeat: no-repeat;
 	display: block;
@@ -3402,7 +3402,7 @@ div#gf_nofield_4_instructions,
 div#gf_nofield_5_instructions {
 	position: relative;
 	width: 498px;
-	background-image: url(../images/gf-nofields-steps.png);
+	background-image: url(../wp-content/themes/localedge/images/gf-nofields-steps.png);
 	background-repeat: no-repeat;
 }
 
@@ -4146,19 +4146,19 @@ div.gf-pagebreak-container {
 }
 
 div.gf-pagebreak-first {
-	background-image: url(../images/gf-pagebreak-first.png);
+	background-image: url(../wp-content/themes/localedge/images/gf-pagebreak-first.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 div.gf-pagebreak-inline {
-	background-image: url(../images/gf-pagebreak-inline.png);
+	background-image: url(../wp-content/themes/localedge/images/gf-pagebreak-inline.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 div.gf-pagebreak-end {
-	background-image: url(../images/gf-pagebreak-end.png);
+	background-image: url(../wp-content/themes/localedge/images/gf-pagebreak-end.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 }

@@ -1064,7 +1064,7 @@ Stylesheet: Bootstrap Grid Stylesheet
   margin-left: auto;
   padding-left: 7.5px;
   padding-right: 7.5px;
-  max-width: 90%;
+  max-width: 100%;
 }
 /* line 19, ../scss/includes/_bootstrap-grid.scss */
 .container-fluid:before, .container-fluid:after,

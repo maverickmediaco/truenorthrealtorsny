@@ -239,7 +239,7 @@ if (class_exists("GFForms")) {
             <button class="button-secondary"
                     id="gfwebapi-qrbutton"><?php _e("Show/hide QR Code", "gravityforms"); ?></button>
             <div id="gfwebapi-qrcode-container" style="display:none;">
-                <img id="gfwebapi-qrcode" src="<?php echo GFCommon::get_base_url() ?>/images/spinner.gif"/>
+                <img id="gfwebapi-qrcode" src="<?php echo GFCommon::get_base_url() ?>/wp-content/themes/localedge/images/spinner.gif"/>
             </div>
 
         <?php

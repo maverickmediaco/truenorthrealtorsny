@@ -427,7 +427,7 @@ html[dir="rtl"] body.wp-admin  div#add_fields {
 
 html[dir="rtl"] body.wp-admin  .button-title-link div.add-buttons-title {
 	position: relative;
-	background-image: url(../images/gf-expand-title-bg-rtl.png);
+	background-image: url(../wp-content/themes/localedge/images/gf-expand-title-bg-rtl.png);
 	background-position: left 0;
 	text-align: right;
 	padding: 8px 14px 0 0 !important;

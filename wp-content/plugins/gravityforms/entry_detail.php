@@ -508,7 +508,7 @@ class GFEntryDetail{
 
                                         <input type="button" name="notification_resend" value="<?php _e("Resend Notifications", "gravityforms") ?>" class="button" style="" onclick="ResendNotifications();"/>
                                         <span id="please_wait_container" style="display:none; margin-left: 5px;">
-                                            <img src="<?php echo GFCommon::get_base_url()?>/images/loading.gif"> <?php _e("Resending...", "gravityforms"); ?>
+                                            <img src="<?php echo GFCommon::get_base_url()?>/wp-content/themes/localedge/images/loading.gif"> <?php _e("Resending...", "gravityforms"); ?>
                                         </span>
                                     <?php
                                     }

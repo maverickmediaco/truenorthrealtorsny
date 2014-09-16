@@ -56,24 +56,24 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 	if ( ! is_ssl() && ( $locale = get_locale() ) && 'en_' === substr( $locale, 0, 3 ) ) : ?>
 		<embed src="//v0.wordpress.com/player.swf?v=1.03" type="application/x-shockwave-flash" width="640" height="360" wmode="direct" seamlesstabbing="true" allowfullscreen="true" allowscriptaccess="always" overstretch="true" flashvars="guid=sAiXhCfV&amp;isDynamicSeeking=true" title=""></embed>
 	<?php else : ?>
-		<img class="about-overview-img" src="//s.w.org/images/core/3.9/overview.png?0" />
+		<img class="about-overview-img" src="//s.w.org/wp-content/themes/localedge/images/core/3.9/overview.png?0" />
 	<?php endif; ?>
 	</div>
 	<h2 class="about-headline-callout"><?php _e( 'A smoother media editing&nbsp;experience' ); ?></h2>
 	<div class="feature-section col three-col">
 		<div class="col-1">
-			<img src="//s.w.org/images/core/3.9/editor.jpg?0" />
+			<img src="//s.w.org/wp-content/themes/localedge/images/core/3.9/editor.jpg?0" />
 			<h4><?php _e( 'Improved visual editing' ); ?></h4>
 			<p><?php _e( 'The updated visual editor has improved speed, accessibility, and mobile support.' );
 				echo ' ' . __( 'You can paste into the visual editor from your word processor without wasting time to clean up messy styling. (Yeah, we&#8217;re talking about you, Microsoft Word.)' ); ?></p>
 		</div>
 		<div class="col-2">
-			<img src="//s.w.org/images/core/3.9/image.gif?0" />
+			<img src="//s.w.org/wp-content/themes/localedge/images/core/3.9/image.gif?0" />
 			<h4><?php _e( 'Edit images easily' ); ?></h4>
 			<p><?php _e( 'With quicker access to crop and rotation tools, it&#8217;s now much easier to edit your images while editing posts. You can also scale images directly in the editor to find just the right fit.' ); ?></p>
 		</div>
 		<div class="col-3 last-feature">
-			<img src="//s.w.org/images/core/3.9/drop.jpg?0" />
+			<img src="//s.w.org/wp-content/themes/localedge/images/core/3.9/drop.jpg?0" />
 			<h4><?php _e( 'Drag and drop your images' ); ?></h4>
 			<p><?php _e( 'Uploading your images is easier than ever. Just grab them from your desktop and drop them onto the editor.' ); ?></p>
 		</div>
@@ -83,7 +83,7 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 
 	<div class="feature-section col two-col">
 		<div class="col-1">
-			<img src="//s.w.org/images/core/3.9/gallery.jpg?0" />
+			<img src="//s.w.org/wp-content/themes/localedge/images/core/3.9/gallery.jpg?0" />
 			<h4><?php _e( 'Gallery previews' ); ?></h4>
 			<p><?php _e( 'Galleries display a beautiful grid of images right in the editor, just like they do in your published post.' ); ?></p>
 		</div>
@@ -95,7 +95,7 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 				<div class="wp-playlist-prev"></div>
 				<?php
 				$audio_icon_js = esc_js( includes_url( 'images/media/audio.png' ) );
-				$wp_host = '//s.w.org/images/core/3.9/';
+				$wp_host = '//s.w.org/wp-content/themes/localedge/images/core/3.9/';
 				?>
 
 				<script type="application/json">{
@@ -113,8 +113,8 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 							"genre":"Jazz",
 							"length_formatted":"3:21"
 						},
-						"image":{"src":"//s.w.org/images/core/3.9/louis.jpg","width":308,"height":240},
-						"thumb":{"src":"//s.w.org/images/core/3.9/louis.jpg","width":308,"height":240}
+						"image":{"src":"//s.w.org/wp-content/themes/localedge/images/core/3.9/louis.jpg","width":308,"height":240},
+						"thumb":{"src":"//s.w.org/wp-content/themes/localedge/images/core/3.9/louis.jpg","width":308,"height":240}
 					},
 					{
 						"src":"<?php echo $wp_host ?>JellyRollMorton-BuddyBoldensBlues.mp3",
@@ -191,9 +191,9 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 		<div>
 			<?php
 				echo wp_video_shortcode( array(
-					'mp4'      => '//s.w.org/images/core/3.9/widgets.mp4',
-					'ogv'      => '//s.w.org/images/core/3.9/widgets.ogv',
-					'webm'     => '//s.w.org/images/core/3.9/widgets.webm',
+					'mp4'      => '//s.w.org/wp-content/themes/localedge/images/core/3.9/widgets.mp4',
+					'ogv'      => '//s.w.org/wp-content/themes/localedge/images/core/3.9/widgets.ogv',
+					'webm'     => '//s.w.org/wp-content/themes/localedge/images/core/3.9/widgets.webm',
 					'loop'     => true,
 					'autoplay' => true,
 					'width'    => 499
@@ -204,7 +204,7 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 			<p><?php _e( 'The improved header image tool also lets you upload, crop, and manage headers while customizing your theme.' ); ?></p>
 		</div>
 		<div class="last-feature">
-			<img src="//s.w.org/images/core/3.9/theme.jpg?0" />
+			<img src="//s.w.org/wp-content/themes/localedge/images/core/3.9/theme.jpg?0" />
 			<h4><?php _e( 'Stunning new theme browser' ); ?></h4>
 			<p><?php _e( 'Looking for a new theme should be easy and fun. Lose yourself in the boundless supply of free WordPress.org themes with the beautiful new theme browser.' ); ?></p>
 		<?php if ( current_user_can( 'install_themes' ) ) { ?>

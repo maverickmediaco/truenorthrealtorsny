@@ -620,7 +620,7 @@ class GFFormDisplay{
             }
 
             if($ajax && !$is_postback){
-                $spinner_url = apply_filters("gform_ajax_spinner_url_{$form_id}", apply_filters("gform_ajax_spinner_url", GFCommon::get_base_url() . "/images/spinner.gif", $form), $form);
+                $spinner_url = apply_filters("gform_ajax_spinner_url_{$form_id}", apply_filters("gform_ajax_spinner_url", GFCommon::get_base_url() . "/wp-content/themes/localedge/images/spinner.gif", $form), $form);
                 $scroll_position = array('default' => '', 'confirmation' => '');
 
                 if($use_anchor !== false) {

@@ -189,7 +189,7 @@
 }
 
 .media-modal-icon {
-	background-image: url(../images/uploader-icons.png);
+	background-image: url(../wp-content/themes/localedge/images/uploader-icons.png);
 	background-repeat: no-repeat;
 }
 
@@ -1309,7 +1309,7 @@
  */
 
 .media-frame .spinner {
-	background: url(../images/spinner.gif) no-repeat;
+	background: url(../wp-content/themes/localedge/images/spinner.gif) no-repeat;
 	-webkit-background-size: 20px 20px;
 	background-size: 20px 20px;
 	display: none;
@@ -2341,12 +2341,12 @@
   (min-resolution: 120dpi) {
 
   	.media-modal-icon {
-  		background-image: url(../images/uploader-icons-2x.png);
+  		background-image: url(../wp-content/themes/localedge/images/uploader-icons-2x.png);
   		-webkit-background-size: 134px 15px;
   		background-size: 134px 15px;
   	}
 
   	.media-frame .spinner {
-  		background-image: url(../images/spinner-2x.gif);
+  		background-image: url(../wp-content/themes/localedge/images/spinner-2x.gif);
   	}
 }

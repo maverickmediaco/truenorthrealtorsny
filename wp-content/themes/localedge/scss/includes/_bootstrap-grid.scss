@@ -292,7 +292,7 @@ width: percentage(($columns / $grid-columns));
 .container-fluid,
 .wrap {
   @include container-fixed;
-  max-width: 90%;
+  max-width: 100%;
 }
 
 

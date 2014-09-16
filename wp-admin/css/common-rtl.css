@@ -1530,7 +1530,7 @@ h2 .nav-tab {
 ------------------------------------------------------------------------------*/
 
 .spinner {
-	background: url(../images/spinner.gif) no-repeat;
+	background: url(../wp-content/themes/localedge/images/spinner.gif) no-repeat;
 	-webkit-background-size: 20px 20px;
 	background-size: 20px 20px;
 	display: none;
@@ -1739,11 +1739,11 @@ div.star-holder {
 	position: relative;
 	height: 17px;
 	width: 100px;
-	background: url(../images/stars.png?ver=20121108) repeat-x bottom right;
+	background: url(../wp-content/themes/localedge/images/stars.png?ver=20121108) repeat-x bottom right;
 }
 
 div.star-holder .star-rating {
-	background: url(../images/stars.png?ver=20121108) repeat-x top right;
+	background: url(../wp-content/themes/localedge/images/stars.png?ver=20121108) repeat-x top right;
 	height: 17px;
 	float: right;
 }
@@ -2007,7 +2007,7 @@ body.import-php #TB_window,
 body.plugins-php #TB_window,
 body.update-core-php #TB_window,
 body.index-php #TB_window {
-	background: #fcfcfc url( ../images/spinner.gif ) no-repeat center;
+	background: #fcfcfc url( ../wp-content/themes/localedge/images/spinner.gif ) no-repeat center;
 }
 
 @media print,
@@ -2020,7 +2020,7 @@ body.index-php #TB_window {
 	body.plugins-php #TB_window,
 	body.update-core-php #TB_window,
 	body.index-php #TB_window {
-		background: #fcfcfc url( ../images/spinner-2x.gif ) no-repeat center;
+		background: #fcfcfc url( ../wp-content/themes/localedge/images/spinner-2x.gif ) no-repeat center;
 		-webkit-background-size: 20px 20px;
 		background-size: 20px 20px;
 	}
@@ -2443,13 +2443,13 @@ img {
 	/* Back-compat for pre-3.8 */
 	div.star-holder,
 	div.star-holder .star-rating {
-		background: url(../images/stars-2x.png?ver=20121108) repeat-x bottom right;
+		background: url(../wp-content/themes/localedge/images/stars-2x.png?ver=20121108) repeat-x bottom right;
 		-webkit-background-size: 21px 37px;
 		background-size: 21px 37px;
 	}
 
 	.spinner {
-		background-image: url(../images/spinner-2x.gif);
+		background-image: url(../wp-content/themes/localedge/images/spinner-2x.gif);
 	}
 
 	/* @todo: evaluate - most of these were likely replaced by dashicons */

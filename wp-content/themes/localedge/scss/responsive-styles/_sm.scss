@@ -17,6 +17,10 @@ come into play. Have fun!
 STICKY FOOTER STYLES
 *********************/
 
+body {
+	
+}
+
 html,
 body.sticky-footer {
 	height: 100%;
@@ -47,4 +51,38 @@ html>/**/body.sticky-footer #container {
 
 html>body.sticky-footer #content {
     height: auto;
+}
+
+#main-navigation ul.menu {
+	background:none;
+	color:#fff;
+}
+
+#main-navigation ul.menu li a{
+	color:#fff;
+}
+
+.call {
+	margin-top:0em;
+	border-top:solid 1px #1D5D8D;
+}
+
+.tel {
+	margin-bottom:1em;
+}
+
+h1 {
+	font-family: 'Forum', cursive;
+	font-size:32px;
+	text-decoration:underline;
+	color:#1D5D8D;
+}
+
+em {
+	font-family: 'Forum', cursive;
+	color:#1D5D8D;
+}
+
+.entry-content {
+	padding:40px;
 }

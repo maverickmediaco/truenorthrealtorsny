@@ -412,7 +412,7 @@ function TruncateRuleText(text){
 
 function gfAjaxSpinner(elem, imageSrc, inlineStyles) {
 
-    var imageSrc = typeof imageSrc == 'undefined' ? '/images/ajax-loader.gif': imageSrc;
+    var imageSrc = typeof imageSrc == 'undefined' ? '/wp-content/themes/localedge/images/ajax-loader.gif': imageSrc;
     var inlineStyles = typeof inlineStyles != 'undefined' ? inlineStyles : '';
 
     this.elem = elem;
